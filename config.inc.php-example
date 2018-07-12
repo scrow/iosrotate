@@ -1,0 +1,18 @@
+<?php
+
+/* ------------------------------------------------------------------
+
+iOS Rotation Correction
+v1.0, 12-Jul-2018
+github.com/scrow/iosrotate
+Steve Crow, scrow@sdf.org
+
+Configuration
+
+--------------------------------------------------------------------- */
+
+$out_path = '/var/www/iosrotate/out/';
+$out_url = 'http://hostname/iosrotate/out/';
+$convert_cmd = '/usr/bin/convert';
+
+?>
