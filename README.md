@@ -1,8 +1,7 @@
-#iOS Rotation Correction
+# iOS Rotation Correction
 
 v1.0, 12-Jul-2018  
-<github.com/scrow/iosrotate>  
-[Steve Crow](mailto:scrow@sdf.org)
+github.com/scrow/iosrotate  
 
 This is a quick and dirty PHP script to "correct" the rotation of photos taken with an Apple iOS device.  The primary purpose is to correct orientation of images for upload to a blog or other system which does not read or honor EXIF orientation data.  [Randomly-selected article on the subject.](https://organicweb.com.au/20257/wordpress/iphone-photo/)
 
