@@ -64,7 +64,7 @@ switch ($_SERVER['REQUEST_METHOD']) {
                 };
                 $convert_cmd .= ' ' . $_FILES['infile']['tmp_name'] . ' -auto-orient -quality 100% ' . $out_path . $output_filename;
                 shell_exec($convert_cmd);
-                chmod($out_path . $output_filename, 750);
+                chmod($out_path . $output_filename, 775);
                 unlink($_FILES['infile']['tmp_name']);
 				header('Location: ' . $out_url . $output_filename);
            };
